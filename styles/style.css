@@ -293,3 +293,58 @@ body {
     font-weight: 600;
     margin-left: -2px;
 }
+
+
+/* footer section styles */
+
+.footer {
+    padding: 100px;
+    color: white;
+    background-color: rgb(7, 2, 17);
+}
+
+.footer-caption {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.fa-phone {
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 1320px;
+    margin: 50px auto;
+}
+
+.footer-title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.contract {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.icons {
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.reserved {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.f-title {
+    
+}
