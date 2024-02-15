@@ -9,22 +9,28 @@ body {
 
 
 /* Common styles */
-.max-width{
+.max-width {
     max-width: 1320px;
     margin: 0 auto;
 }
 
+.inter {
+    font-family: "Inter", sans-serif;
+}
+
 
 /* Header styles */
-.header{
+.header {
     background-image: url(../images/Banner\ Image.png);
-    
+
 }
+
 /* banner */
-.banner{
+.banner {
     margin: 100px 0;
     text-align: center;
 }
+
 .banner-capiton {
     font-size: 32px;
     font-weight: 400;
@@ -37,17 +43,37 @@ body {
     color: white;
 }
 
-.banner-content{
+.banner-content {
     background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0));
     padding: 189px 100px;
     border-radius: 15px;
-  
+
 }
 
-/* .overlay{
-    position: absolute;
-    width: 1320;
-    height: 600;
-    background-color: blueviolet;
-    background-image: linear-gradient(to-bottom,gray, white);
-} */
+/* 60% off section styles */
+
+.off {
+    margin: 150px;
+    text-align: center;
+}
+
+.off-title {
+    font-size: 88px;
+    font-weight: 700;
+    color: rgb(255, 0, 0);
+    margin-bottom: 50px;
+}
+
+.off-caption {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(255, 0, 0);
+    margin-bottom: 20px;
+}
+
+.off-cat {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(7, 2, 17);
+    margin-bottom: 50px;
+}
