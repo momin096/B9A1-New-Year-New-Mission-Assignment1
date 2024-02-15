@@ -232,13 +232,64 @@ body {
     margin-bottom: 25px;
 }
 
-.products{
+.products {
     display: flex;
     gap: 20px;
     margin-bottom: 20px;
 }
 
-.products > img:hover{
+.products>img:hover {
     transform: scale(1.2);
     transition: .5s;
+}
+
+/* subscribe section styels */
+
+.subscribe {
+    background-color: rgba(255, 192, 203, 0.24);
+    text-align: center;
+    padding: 100px;
+    border-radius: 15px;
+    margin: 100px 0;
+}
+
+.subscribe-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(7, 2, 17);
+    margin: 30px 0;
+}
+
+.subsceibe-descrciption {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+
+}
+
+.subs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+#email {
+    padding: 15px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    width: 350px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.subs-btn {
+    padding: 13.5px 30px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    background-color: red;
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+    margin-left: -2px;
 }
