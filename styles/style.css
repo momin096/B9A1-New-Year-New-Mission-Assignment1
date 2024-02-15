@@ -210,10 +210,53 @@ body {
     width: 33%;
 }
 
+/* holiday section styles */
+.holiday{
+    margin: 100px auto;
+    text-align: right;
+    position: relative;
+}
+.h-container{
+    text-align: center;
+}
+.h-caption {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.h-title {
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.h-description {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 70px;
+}
+
+#girl{
+margin-bottom: -4px;
+}
+
+#gift{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#discount{
+    position: absolute;
+    right: 285px;
+    top: 400px;
+}
 
 /* portfolio section styles  */
 
-.p-text {
+.p-txt {
     font-size: 24px;
     font-weight: 500;
 }
@@ -345,6 +388,4 @@ hr {
     font-weight: 500;
 }
 
-.f-title {
-    
-}
+.f-title {}
