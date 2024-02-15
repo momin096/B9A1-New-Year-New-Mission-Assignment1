@@ -32,7 +32,7 @@ body {
     font-weight: 700;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     background-color: rgb(170, 59, 59);
     transition: .5s;
 }
@@ -137,16 +137,75 @@ body {
 }
 
 /* schedule */
-.schedule{
+.schedule {
     text-align: center;
     margin: 100px auto;
     padding: 100px;
     border-radius: 15px;
-    background-image: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    background-image: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
 }
+
 .sch {
     margin-bottom: 10px;
     font-size: 32px;
     font-weight: 600;
     color: rgb(7, 2, 17);
 }
+
+/* comming soon styels */
+
+.comming-soon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+    margin: 100px auto;
+}
+.c-soon{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.soon-title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.soon-caption {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(7, 2, 17);
+}
+
+.soon-description {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.year{
+    width: 33%;
+}
+
+.year-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.year-description {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 20px;
+}
+
+.comming-soon > img{
+    padding: 30px;
+    border: 15px solid red;
+    border-radius: 50%;
+    width: 33%;
+}
+
