@@ -154,14 +154,15 @@ body {
 
 /* comming soon styels */
 
-.comming-soon{
+.comming-soon {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 70px;
     margin: 100px auto;
 }
-.c-soon{
+
+.c-soon {
     width: 33%;
     display: flex;
     flex-direction: column;
@@ -185,7 +186,7 @@ body {
     color: rgba(7, 2, 17, 0.6);
 }
 
-.year{
+.year {
     width: 33%;
 }
 
@@ -202,10 +203,42 @@ body {
     margin-bottom: 20px;
 }
 
-.comming-soon > img{
+.comming-soon>img {
     padding: 30px;
     border: 15px solid red;
     border-radius: 50%;
     width: 33%;
 }
 
+
+/* portfolio section styles  */
+
+.p-text {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.p-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(7, 2, 17);
+    margin-bottom: 20px;
+}
+
+.p-description {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 25px;
+}
+
+.products{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.products > img:hover{
+    transform: scale(1.2);
+    transition: .5s;
+}
